@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "necromancychestplate",
+	"version": "${version}",
+	"name": "NecromancyChestplate",
+	"description": "Nig",
+	"authors": [
+		"Helium9"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/necromancychestplate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.helium9.NecromancyChestplate"
+		],
+		"client": [
+			"me.helium9.NecromancyChestplateClient"
+		],
+		"fabric-datagen": [
+			"me.helium9.NecromancyChestplateDataGenerator"
+		]
+	},
+	"mixins": [
+		"necromancychestplate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
