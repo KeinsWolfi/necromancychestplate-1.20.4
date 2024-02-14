@@ -1,5 +1,6 @@
 package me.helium9;
 
+import me.helium9.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class NecromancyChestplate implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!" + MOD_ID);
+		LOGGER.info("Init " + MOD_ID);
+		ModItems.registerModItems();
 	}
 }
