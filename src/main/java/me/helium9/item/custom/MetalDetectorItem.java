@@ -28,7 +28,7 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(state)){
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock=true;
-                    
+
                     break;
                 }
             }
