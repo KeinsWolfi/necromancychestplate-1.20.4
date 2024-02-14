@@ -1,3 +1,9 @@
 {
-  "item.necromancychestplate.ruby": "Ruby"
+  "item.necromancychestplate.ruby": "Ruby",
+  "item.necromancychestplate.raw_ruby": "Raw Ruby",
+
+  "block.necromancychestplate.ruby_block": "Ruby Block",
+  "block.necromancychestplate.raw_ruby_block": "Raw Ruby Block",
+
+  "itemgroup.ruby": "Ruby Items"
 }
